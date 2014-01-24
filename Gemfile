@@ -58,8 +58,9 @@ group :development do
   gem 'guard-rspec'
   gem 'guard-cucumber'
   gem 'rspec-rails'
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'better_errors'
+  gem 'database_cleaner'
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'spork-rails'
